@@ -1,305 +1,1230 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
 <meta charset="UTF-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>H.S Public School | Memories</title>
+<meta name="description"
+content="H.S Public School - A digital memory book dedicated to unforgettable school days, friends and memories.">
 
-<link rel="stylesheet" href="css/style.css">
+<meta name="theme-color" content="#0D0D0D">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<meta name="author" content="Jayvardhan Singh">
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<meta property="og:title"
+content="H.S Public School | Where Memories Never Graduate">
+
+<meta property="og:description"
+content="School Ends. Friendship Never Does.">
+
+<meta property="og:image"
+content="assets/images/hero.jpg">
+
+<link rel="icon"
+href="assets/icons/favicon.png">
+
+<title>H.S Public School | The Last Bell</title>
+
+<link rel="stylesheet"
+href="css/style.css">
+
+<link
+href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+rel="stylesheet">
+
+<link rel="preconnect"
+href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
 
 </head>
 
 <body>
 
-<audio id="bgMusic" loop>
-    <source src="assets/audio/memories.mp3" type="audio/mp3">
-</audio>
+<!-- ===========================
+        LOADER
+=========================== -->
 
-<div class="loader">
+<div class="loader" id="loader">
 
-<h1>🏫 H.S PUBLIC SCHOOL</h1>
+<div class="loader-content">
 
-<p>A Journey Through Memories...</p>
+<img
+src="assets/images/logo.png"
+alt="School Logo"
+class="loader-logo">
+
+<h1>
+
+H.S PUBLIC SCHOOL
+
+</h1>
+
+<p>
+
+Where Memories Never Graduate
+
+</p>
 
 <button id="enterBtn">
-🎵 Enter Memory Lane
+
+🔔 Enter School
+
 </button>
 
 </div>
 
+</div>
 
+<!-- ===========================
+        AUDIO
+=========================== -->
 
-<!-- ================= NAVBAR ================= -->
+<audio id="bell">
+
+<source
+src="assets/audio/school-bell.mp3"
+type="audio/mpeg">
+
+</audio>
+
+<audio id="bgMusic" loop>
+
+<source
+src="assets/audio/memories.mp3"
+type="audio/mpeg">
+
+</audio>
+
+<!-- ===========================
+        MUSIC BUTTON
+=========================== -->
+
+<button
+id="musicBtn"
+aria-label="Music">
+
+🎵
+
+</button>
+
+<!-- ===========================
+        MOBILE NAV
+=========================== -->
+
+<header>
 
 <nav class="navbar">
 
-    <div class="logo">
-        H.S Public School
-    </div>
+<a
+href="#home"
+class="logo">
 
-    <ul>
+🏫
 
-        <li><a href="#">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#friends">Friends</a></li>
-        <li><a href="#gallery">Gallery</a></li>
-        <li><a href="#timeline">Timeline</a></li>
+<span>
 
-    </ul>
+H.S Public School
+
+</span>
+
+</a>
+
+<button
+class="menu-btn"
+id="menuBtn"
+aria-label="Open Menu">
+
+☰
+
+</button>
+
+<ul id="navLinks">
+
+<li>
+
+<a href="#home">
+
+Home
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#about">
+
+School
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#friends">
+
+Friends
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#timeline">
+
+Journey
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#gallery">
+
+Gallery
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#memory">
+
+Memory Wall
+
+</a>
+
+</li>
+
+<li>
+
+<a href="#footer">
+
+Farewell
+
+</a>
+
+</li>
+
+</ul>
 
 </nav>
 
+</header>
 
-<!-- ================= HERO ================= -->
+<!-- ===========================
+        HERO
+=========================== -->
 
-<section class="hero">
+<section
+id="home"
+class="hero">
 
-<div class="overlay"></div>
+<div class="hero-overlay"></div>
+
+<img
+src="assets/images/hero.jpg"
+alt="H.S Public School"
+class="hero-bg">
 
 <div class="hero-content">
 
-<h1>H.S Public School</h1>
+<span class="hero-tag">
 
-<h2>Forever Friends ❤️</h2>
+🏫 Since 2011
+
+</span>
+
+<h1>
+
+WELCOME BACK
+
+</h1>
+
+<h2>
+
+To The Place
+
+Where Our Story Began
+
+</h2>
 
 <p>
 
-School ends...
-Friendship never does.
+Some classrooms teach lessons.
+
+Some classrooms create memories.
+
+This is where both happened.
 
 </p>
 
-<a href="#friends" class="btn">
-Meet Our Squad
+<div class="hero-buttons">
+
+<a
+href="#about"
+class="btn">
+
+Explore School
+
+</a>
+
+<a
+href="#gallery"
+class="btn btn-outline">
+
+View Memories
+
 </a>
 
 </div>
 
+</div>
+
+<div class="scroll-indicator">
+
+<span></span>
+
+</div>
+
 </section>
 
+<main>
 
-<!-- ================= ABOUT ================= -->
+<!-- ===========================
+        ABOUT STARTS HERE
+=========================== -->
 
-<section id="about" class="about">
+<!-- ======================================================
+                    ABOUT SCHOOL
+======================================================= -->
 
-<h2>About Our Journey</h2>
+<section id="about" class="about section">
+
+<div class="container">
+
+<div class="section-title">
+
+<span>🏫 OUR SCHOOL</span>
+
+<h2>
+Where Every Memory Began
+</h2>
 
 <p>
 
-This website is dedicated to the unforgettable memories we created at
-<strong>H.S Public School</strong>.
+Some schools teach lessons.
 
-From classroom laughter and sports day victories to farewell tears,
-every moment became a chapter in our lives.
-
-No matter where life takes us...
-
-These memories will always stay together.
+Our school taught friendship,
+respect,
+dreams,
+and memories that still make us smile.
 
 </p>
 
-</section>
-
-
-<!-- ================= FRIENDS ================= -->
-
-<section id="friends" class="friends">
-
-<h2>Our Squad</h2>
-
-<div class="friends-grid">
-
-<div class="card">
-<img src="assets/images/friends/lucky.jpeg">
-<h3>Lucky</h3>
-<p>Intelligent & Nautiest Boy.</p>
 </div>
 
-<div class="card">
-<img src="assets/images/friends/anurag.jpeg">
-<h3>Anurag</h3>
-<p>Mathmatics Lover.</p>
-</div>
+<div class="about-grid">
 
-<div class="card">
-<img src="assets/images/friends/nishant2.jpeg">
-<h3>Nishant</h3>
-<p>The funniest person in class.</p>
-</div>
+<div class="about-image">
 
-<div class="card">
-<img src="assets/images/friends/jai.jpeg">
-<h3>Jai</h3>
-<p>A friend.</p>
-</div>
-
-<div class="card">
-<img src="assets/images/friends/kashish.jpeg">
-<h3>Kashish</h3>
-<p>Creative and full of positive energy.</p>
-</div>
-
-<div class="card">
-<img src="assets/images/friends/gudiya.jpeg">
-<h3>Gudiya</h3>
-<p>Kind-hearted and caring.</p>
-</div>
-
-<div class="card">
-<img src="assets/images/friends/manshi.jpeg">
-<h3>Manshi</h3>
-<p>Always Work Completed.</p>
-</div>
-
-<div class="card">
-<img src="assets/images/friends/nitin.jpeg">
-<h3>Nitin</h3>
-<p>Funny Guy & Always Prepared For Exams.</p>
-</div>
-
-<div class="card">
-<img src="assets/images/friends/aashu.jpeg">
-<h3>Aashu</h3>
-<p>Never a boring moment.</p>
-</div>
-
-<div class="card">
-<img src="assets/images/friends/vishnu.jpeg">
-<h3>Vishnu</h3>
-<p>Smart, funny and unforgettable.</p>
-</div>
-
-<div class="planes">
-
-🛩️
+<img
+src="assets/images/school.png"
+alt="H.S Public School">
 
 </div>
 
-<div class="particles"></div>
+<div class="about-content">
 
-</div>
+<div class="info-card">
 
+<h3>
 
+📖 Our Story
 
-</section>
-
-<section id="timeline">
-
-<h2>Our Journey</h2>
-
-<div class="line">
-
-<div class="event">
-
-<h3>First Day</h3>
-
-<p>Meeting each other.</p>
-
-</div>
-
-<div class="event">
-
-<h3>Sports Day</h3>
-
-<p>Running, laughing and winning.</p>
-
-</div>
-
-<div class="event">
-
-<h3>Farewell</h3>
-
-<p>The hardest goodbye.</p>
-
-</div>
-
-</div>
-
-</section>
-
-<section id="gallery">
-
-<h2>Gallery</h2>
-
-<div class="gallery">
-
-<img src="assets/images/gallery1.jpg">
-
-<img src="assets/images/gallery2.jpeg">
-
-<img src="assets/images/gallery3.jpeg">
-
-<img src="assets/images/gallery4.jpeg">
-
-<img src="assets/images/gallery5.jpeg">
-
-<img src="assets/images/gallery7.jpeg">
-<img src="assets/images/gallery8.jpeg">
-<img src="assets/images/gallery9.jpeg">
-<img src="assets/images/gallery10.jpeg">
-<img src="assets/images/gallery11.jpeg">
-<img src="assets/images/gallery12.jpeg">
-
-</div>
-
-</section>
-
-<section class="class-photo">
-
-<h2>Our Class ❤️</h2>
-
-<img src="assets/images/class.jpeg" alt="Class Photo">
+</h3>
 
 <p>
 
-One photo...
+From morning assembly to the last school bell,
+every day gave us a new memory.
+
+These classrooms witnessed our dreams,
+our laughter,
+our mistakes,
+and our growth.
+
+</p>
+
+</div>
+
+<div class="stats">
+
+<div class="stat">
+
+<h2>10+</h2>
+
+<p>Best Friends</p>
+
+</div>
+
+<div class="stat">
+
+<h2>1000+</h2>
+
+<p>Laughs Shared</p>
+
+</div>
+
+<div class="stat">
+
+<h2>∞</h2>
+
+<p>Memories</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ======================================================
+                    FRIENDS
+======================================================= -->
+
+<section id="friends" class="friends section">
+
+<div class="container">
+
+<div class="section-title">
+
+<span>❤️ OUR SQUAD</span>
+
+<h2>
+
+Friends Forever
+
+</h2>
+
+<p>
+
+People come and go.
+
+Real friends become memories.
+
+</p>
+
+</div>
+
+<div class="friends-grid">
+
+<!-- Lucky -->
+
+<div class="friend-card">
+
+<div class="friend-image">
+
+<img
+src="assets/images/friends/lucky.jpeg"
+alt="Lucky">
+
+</div>
+
+<div class="friend-info">
+
+<h3>Lucky</h3>
+
+<span>😆 Intelligent & Naughty</span>
+
+<p>
+
+Always making every school day fun.
+
+</p>
+
+<button class="friend-btn">
+
+View Memory
+
+</button>
+
+</div>
+
+</div>
+
+<!-- Anurag -->
+
+<div class="friend-card">
+
+<div class="friend-image">
+
+<img
+src="assets/images/friends/anurag.jpeg"
+alt="Anurag">
+
+</div>
+
+<div class="friend-info">
+
+<h3>Anurag</h3>
+
+<span>📚 Mathematics Lover</span>
+
+<p>
+
+The calculator of the classroom.
+
+</p>
+
+<button class="friend-btn">
+
+View Memory
+
+</button>
+
+</div>
+
+</div>
+
+<!-- Nishant -->
+
+<div class="friend-card">
+
+<div class="friend-image">
+
+<img
+src="assets/images/friends/nishant2.jpeg"
+alt="Nishant">
+
+</div>
+
+<div class="friend-info">
+
+<h3>Nishant</h3>
+
+<span>😂 Class Comedian</span>
+
+<p>
+
+Every class became fun because of him.
+
+</p>
+
+<button class="friend-btn">
+
+View Memory
+
+</button>
+
+</div>
+
+</div>
+
+<!-- Jai -->
+
+<div class="friend-card">
+
+<div class="friend-image">
+
+<img
+src="assets/images/friends/jai.jpeg"
+alt="Jai">
+
+</div>
+
+<div class="friend-info">
+
+<h3>Jai</h3>
+
+<span>🤝 Loyal Friend</span>
+
+<p>
+
+Always there whenever someone needed him.
+
+</p>
+
+<button class="friend-btn">
+
+View Memory
+
+</button>
+
+</div>
+
+</div>
+
+<!-- Kashish -->
+
+<div class="friend-card">
+
+<div class="friend-image">
+
+<img
+src="assets/images/friends/kashish.jpeg"
+alt="Kashish">
+
+</div>
+
+<div class="friend-info">
+
+<h3>Kashish</h3>
+
+<span>🎨 Creative Soul</span>
+
+<p>
+
+Positive energy everywhere.
+
+</p>
+
+<button class="friend-btn">
+
+View Memory
+
+</button>
+
+</div>
+
+</div>
+
+<!-- Gudiya -->
+
+<div class="friend-card">
+
+<div class="friend-image">
+
+<img
+src="assets/images/friends/gudiya.jpeg"
+alt="Gudiya">
+
+</div>
+
+<div class="friend-info">
+
+<h3>Gudiya</h3>
+
+<span>🌸 Caring Heart</span>
+
+<p>
+
+Kindness made every day brighter.
+
+</p>
+
+<button class="friend-btn">
+
+View Memory
+
+</button>
+
+</div>
+
+</div>
+
+<!-- Manshi -->
+
+<div class="friend-card">
+
+<div class="friend-image">
+
+<img
+src="assets/images/friends/manshi.jpeg"
+alt="Manshi">
+
+</div>
+
+<div class="friend-info">
+
+<h3>Manshi</h3>
+
+<span>📖 Always Prepared</span>
+
+<p>
+
+Homework completed before everyone.
+
+</p>
+
+<button class="friend-btn">
+
+View Memory
+
+</button>
+
+</div>
+
+</div>
+
+<!-- Nitin -->
+
+<div class="friend-card">
+
+<div class="friend-image">
+
+<img
+src="assets/images/friends/nitin.jpeg"
+alt="Nitin">
+
+</div>
+
+<div class="friend-info">
+
+<h3>Nitin</h3>
+
+<span>🏏 Sports Lover</span>
+
+<p>
+
+Always energetic and smiling.
+
+</p>
+
+<button class="friend-btn">
+
+View Memory
+
+</button>
+
+</div>
+
+</div>
+
+<!-- Aashu -->
+
+<div class="friend-card">
+
+<div class="friend-image">
+
+<img
+src="assets/images/friends/aashu.jpeg"
+alt="Aashu">
+
+</div>
+
+<div class="friend-info">
+
+<h3>Aashu</h3>
+
+<span>😎 Fun Maker</span>
+
+<p>
+
+Never a boring moment around him.
+
+</p>
+
+<button class="friend-btn">
+
+View Memory
+
+</button>
+
+</div>
+
+</div>
+
+<!-- Vishnu -->
+
+<div class="friend-card">
+
+<div class="friend-image">
+
+<img
+src="assets/images/friends/vishnu.jpeg"
+alt="Vishnu">
+
+</div>
+
+<div class="friend-info">
+
+<h3>Vishnu</h3>
+
+<span>💡 Smart Mind</span>
+
+<p>
+
+A friend everyone remembers.
+
+</p>
+
+<button class="friend-btn">
+
+View Memory
+
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ======================================================
+            TIMELINE STARTS HERE
+======================================================= -->
+
+<!-- =====================================================
+                    SCHOOL JOURNEY
+====================================================== -->
+
+<section id="timeline" class="timeline section">
+
+<div class="container">
+
+<div class="section-title">
+
+<span>📚 OUR JOURNEY</span>
+
+<h2>The School Road</h2>
+
+<p>
+
+Every step created another unforgettable memory.
+
+</p>
+
+</div>
+
+<div class="timeline-road">
+
+<div class="timeline-item">
+
+<div class="timeline-icon">
+🎒
+</div>
+
+<div class="timeline-card">
+
+<h3>First Day</h3>
+
+<p>
+
+The beginning of everything.
+
+New classroom.
+
+New teachers.
+
+New friends.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="timeline-item">
+
+<div class="timeline-icon">
+📖
+</div>
+
+<div class="timeline-card">
+
+<h3>Classroom Days</h3>
+
+<p>
+
+Homework.
+
+Jokes.
+
+Punishments.
+
+Bench partners.
+
+Everything became memories.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="timeline-item">
+
+<div class="timeline-icon">
+🏏
+</div>
+
+<div class="timeline-card">
+
+<h3>Sports Day</h3>
+
+<p>
+
+Winning wasn't important.
+
+Playing together was.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="timeline-item">
+
+<div class="timeline-icon">
+🎭
+</div>
+
+<div class="timeline-card">
+
+<h3>Annual Function</h3>
+
+<p>
+
+Dance.
+
+Music.
+
+Practice.
+
+Nervousness.
+
+Applause.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="timeline-item">
+
+<div class="timeline-icon">
+📷
+</div>
+
+<div class="timeline-card">
+
+<h3>Class Photos</h3>
+
+<p>
+
+One click.
 
 Thousands of memories.
 
 </p>
 
+</div>
+
+</div>
+
+<div class="timeline-item">
+
+<div class="timeline-icon">
+🎓
+</div>
+
+<div class="timeline-card">
+
+<h3>Farewell</h3>
+
+<p>
+
+The hardest goodbye.
+
+The strongest memories.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
 </section>
 
-<section class="memory-wall">
+<!-- =====================================================
+                    GALLERY
+====================================================== -->
 
-<h2>Memory Wall</h2>
+<section id="gallery" class="gallery-section section">
 
-<div class="notes">
+<div class="container">
 
-<div class="note">
+<div class="section-title">
+
+<span>📸 GALLERY</span>
+
+<h2>Captured Memories</h2>
+
+<p>
+
+Tap any picture to view it in full screen.
+
+</p>
+
+</div>
+
+<div class="gallery-grid">
+
+<img src="assets/images/gallery1.jpg" alt="Gallery 1">
+
+<img src="assets/images/gallery2.jpeg" alt="Gallery 2">
+
+<img src="assets/images/gallery3.jpeg" alt="Gallery 3">
+
+<img src="assets/images/gallery4.jpeg" alt="Gallery 4">
+
+<img src="assets/images/gallery5.jpeg" alt="Gallery 5">
+
+<img src="assets/images/gallery6.jpeg" alt="Gallery 6">
+
+<img src="assets/images/gallery7.jpeg" alt="Gallery 7">
+
+<img src="assets/images/gallery8.jpeg" alt="Gallery 8">
+
+<img src="assets/images/gallery9.jpeg" alt="Gallery 9">
+
+<img src="assets/images/gallery10.jpeg" alt="Gallery 10">
+
+<img src="assets/images/gallery11.jpeg" alt="Gallery 11">
+
+<img src="assets/images/gallery12.jpeg" alt="Gallery 12">
+
+</div>
+
+</div>
+
+</section>
+
+<!-- =====================================================
+                    FULLSCREEN VIEWER
+====================================================== -->
+
+<div id="lightbox" class="lightbox">
+
+<span id="closeLightbox">
+
+&times;
+
+</span>
+
+<button id="prevImage">
+
+❮
+
+</button>
+
+<img id="lightboxImage" src="" alt="Gallery Image">
+
+<button id="nextImage">
+
+❯
+
+</button>
+
+<div class="image-counter">
+
+<span id="currentImage">
+
+1
+
+</span>
+
+/
+
+<span id="totalImages">
+
+12
+
+</span>
+
+</div>
+
+</div>
+
+<!-- =====================================================
+                    CLASS PHOTO
+            STARTS FROM HERE
+====================================================== -->
+
+<!-- ======================================================
+                    CLASS PHOTO
+====================================================== -->
+
+<section id="class" class="class-photo section">
+
+<div class="container">
+
+<div class="section-title">
+
+<span>🏫 CLASS OF H.S PUBLIC SCHOOL</span>
+
+<h2>
+
+One Picture.
+
+A Thousand Memories.
+
+</h2>
+
+<p>
+
+Some photographs never grow old.
+
+</p>
+
+</div>
+
+<div class="class-wrapper">
+
+<img
+src="assets/images/class.jpeg"
+alt="Class Photo">
+
+<div class="class-content">
+
+<h3>
+
+We'll Never Stand Like This Again.
+
+</h3>
+
+<p>
+
+One classroom.
+
+One blackboard.
+
+One attendance register.
+
+One family.
+
+Years later,
+
+this photograph will remind us
+how beautiful those days really were.
+
+</p>
+
+<a href="#memory" class="btn">
+
+Continue
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ======================================================
+                    MEMORY WALL
+====================================================== -->
+
+<section id="memory" class="memory section">
+
+<div class="container">
+
+<div class="section-title">
+
+<span>❤️ MEMORY WALL</span>
+
+<h2>
+
+Pinned Forever
+
+</h2>
+
+<p>
+
+Every friend leaves behind a memory.
+
+</p>
+
+</div>
+
+<div class="memory-board">
+
+<div class="memory-card">
+
+<h3>
 
 Lucky
 
+</h3>
+
 <p>
 
-"Those lunch breaks were the best."
+"Those lunch breaks were worth more than gold."
 
 </p>
 
 </div>
 
-<div class="note">
+<div class="memory-card">
+
+<h3>
 
 Anurag
 
+</h3>
+
 <p>
 
-"Every day had a new story."
+"We solved maths together...
+
+life became harder after school."
 
 </p>
 
 </div>
 
-<div class="note">
+<div class="memory-card">
+
+<h3>
+
+Nishant
+
+</h3>
+
+<p>
+
+"The classroom was never quiet."
+
+</p>
+
+</div>
+
+<div class="memory-card">
+
+<h3>
 
 Jai
+
+</h3>
 
 <p>
 
@@ -309,13 +1234,33 @@ Jai
 
 </div>
 
-<div class="note">
+<div class="memory-card">
 
-Manshi
+<h3>
+
+Kashish
+
+</h3>
 
 <p>
 
-"The laughter still echoes."
+"Friendship made every day brighter."
+
+</p>
+
+</div>
+
+<div class="memory-card">
+
+<h3>
+
+Manshi
+
+</h3>
+
+<p>
+
+"The happiest memories came from ordinary days."
 
 </p>
 
@@ -323,45 +1268,361 @@ Manshi
 
 </div>
 
-</section>
-
-<section class="quote">
-
-<h1>
-
-"We entered H.S Public School as students...
-
-We left as family."
-
-</h1>
+</div>
 
 </section>
 
-<footer>
+<!-- ======================================================
+                    GUEST BOOK
+====================================================== -->
+
+<section class="guestbook section">
+
+<div class="container">
+
+<div class="section-title">
+
+<span>📝 GUEST BOOK</span>
 
 <h2>
 
-H.S Public School
+Leave A Memory
 
 </h2>
 
 <p>
 
-Forever Friends • Forever Memories
+Write one beautiful memory of school.
 
 </p>
 
+</div>
+
+<form class="memory-form">
+
+<input
+type="text"
+placeholder="Your Name">
+
+<textarea
+placeholder="Write your memory..."></textarea>
+
+<button
+type="submit"
+class="btn">
+
+Submit Memory
+
+</button>
+
+</form>
+
+</div>
+
+</section>
+
+<!-- ======================================================
+                    LAST BELL
+====================================================== -->
+
+<section class="last-bell section">
+
+<div class="container">
+
+<div class="bell-box">
+
+<div class="bell-icon">
+
+🔔
+
+</div>
+
+<h2>
+
+The Last Bell
+
+</h2>
+
 <p>
 
-Designed & Developed by
+One afternoon,
+
+the school bell rang.
+
+We packed our bags.
+
+Walked through the school gate.
+
+Smiled.
+
+Said goodbye.
+
+None of us knew...
+
+that was the last ordinary day we'd ever spend together.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ======================================================
+                    FAREWELL
+====================================================== -->
+
+<section class="farewell section">
+
+<div class="container">
+
+<h2>
+
+Thank You,
+
+My Friends ❤️
+
+</h2>
+
+<p>
+
+Life will keep changing.
+
+Cities will change.
+
+Jobs will change.
+
+Dreams will change.
+
+But the memories we made together
+inside H.S Public School
+
+will never fade.
+
+</p>
+
+<a
+href="#home"
+class="btn">
+
+Back To Beginning
+
+</a>
+
+</div>
+
+</section>
+
+<!-- ======================================================
+                    FOOTER STARTS HERE
+====================================================== -->
+
+<!-- ======================================================
+                        FOOTER
+====================================================== -->
+
+<footer id="footer" class="footer">
+
+<div class="container">
+
+<div class="footer-content">
+
+<div class="footer-brand">
+
+<h2>
+
+🏫 H.S Public School
+
+</h2>
+
+<p>
+
+School ends.
+
+Friendship never does.
+
+This website is dedicated to every unforgettable moment,
+every smile,
+every friendship,
+and every memory we created together.
+
+</p>
+
+</div>
+
+<div class="footer-links">
+
+<h3>
+
+Quick Links
+
+</h3>
+
+<ul>
+
+<li><a href="#home">Home</a></li>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#friends">Friends</a></li>
+
+<li><a href="#timeline">Journey</a></li>
+
+<li><a href="#gallery">Gallery</a></li>
+
+<li><a href="#memory">Memory Wall</a></li>
+
+</ul>
+
+</div>
+
+<div class="footer-social">
+
+<h3>
+
+Connect
+
+</h3>
+
+<a href="https://github.com/jaivdn" target="_blank" rel="noopener noreferrer">
+GitHub
+</a>
+
+<a href="https://www.linkedin.com/in/jayvardhansingh2210"
+target="_blank"
+rel="noopener noreferrer">
+LinkedIn
+</a>
+
+<a href="https://jaivdn.github.io/Portfolio/"
+target="_blank"
+rel="noopener noreferrer">
+Portfolio
+</a>
+
+</div>
+
+</div>
+
+<hr>
+
+<div class="copyright">
+
+<p>
+
+© 2026 H.S Public School Memories.
+
+Designed & Developed with ❤️ by
 
 <strong>Jayvardhan Singh</strong>
 
 </p>
 
+</div>
+
+</div>
+
 </footer>
+
+<!-- ======================================================
+                    BACK TO TOP
+====================================================== -->
+
+<button
+id="backToTop"
+class="back-to-top"
+aria-label="Back to top">
+
+↑
+
+</button>
+
+<!-- ======================================================
+                    FRIEND POPUP
+====================================================== -->
+
+<div
+id="friendModal"
+class="friend-modal">
+
+<div class="modal-content">
+
+<button
+id="closeModal"
+class="close-modal"
+aria-label="Close">
+
+&times;
+
+</button>
+
+<img
+id="modalImage"
+src=""
+alt="Friend Photo">
+
+<h2 id="modalName">
+
+Friend Name
+
+</h2>
+
+<p id="modalText">
+
+Friend memories will appear here.
+
+</p>
+
+</div>
+
+</div>
+
+<!-- ======================================================
+                    FLOATING PARTICLES
+====================================================== -->
+
+<div class="particles">
+
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+
+</div>
+
+<!-- ======================================================
+                    PAPER AIRPLANES
+====================================================== -->
+
+<div class="paper-airplanes">
+
+<div class="plane">✈️</div>
+
+<div class="plane">✈️</div>
+
+<div class="plane">✈️</div>
+
+</div>
+
+<!-- ======================================================
+                    SCRIPTS
+====================================================== -->
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.3.11/dist/lenis.min.js"></script>
 
 <script src="js/script.js"></script>
 
+</main>
+
 </body>
+
 </html>
