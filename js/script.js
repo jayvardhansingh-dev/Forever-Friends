@@ -421,7 +421,7 @@ memory:"Our maths discussions were sometimes harder than the exams."
 
 name:"Nishant",
 
-image:"assets/images/friends/nishant2.jpeg",
+image:"assets/images/friends/nishant.jpeg",
 
 memory:"His jokes made every classroom brighter."
 
@@ -494,6 +494,16 @@ name:"Vishnu",
 image:"assets/images/friends/vishnu.jpeg",
 
 memory:"A smart friend with unforgettable memories."
+
+},
+
+{
+
+name:"Nishant",
+
+image:"assets/images/friends/nishant2.jpeg",
+
+memory:"Tan-Tan for All."
 
 }
 
