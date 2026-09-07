@@ -1,1680 +1,944 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-
-<meta charset="UTF-8">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<meta name="description"
-content="H.S Public School - A digital memory book dedicated to unforgettable school days, friends and memories.">
-
-<meta name="theme-color" content="#0D0D0D">
-
-<meta name="author" content="Jayvardhan Singh">
-
-<meta property="og:title"
-content="H.S Public School | Where Memories Never Graduate">
-
-<meta property="og:description"
-content="School Ends. Friendship Never Does.">
-
-<meta property="og:image"
-content="assets/images/hero.jpg">
-
-<link rel="icon"
-href="assets/icons/favicon.png">
-
-<title>H.S Public School | The Last Bell</title>
-
-<link rel="stylesheet"
-href="css/style.css">
-
-<link
-href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
-rel="stylesheet">
-
-<link rel="preconnect"
-href="https://fonts.googleapis.com">
-
-<link rel="preconnect"
-href="https://fonts.gstatic.com"
-crossorigin>
-
-</head>
-
-<body>
-
-<!-- ===========================
-        LOADER
-=========================== -->
-
-<div class="loader" id="loader">
-
-<div class="loader-content">
-
-<img
-src="assets/images/logo.png"
-alt="School Logo"
-class="loader-logo">
-
-<h1>
-
-H.S PUBLIC SCHOOL
-
-</h1>
-
-<p>
-
-Where Memories Never Graduate
-
-</p>
-
-<button id="enterBtn">
-
-🔔 Enter School
-
-</button>
-
-</div>
-
-</div>
-
-<!-- ===========================
-        AUDIO
-=========================== -->
-
-<audio id="bell">
-
-<source
-src="assets/audio/school-bell.mp3"
-type="audio/mpeg">
-
-</audio>
-
-<audio id="bgMusic" loop>
-
-<source
-src="assets/audio/memories.mp3"
-type="audio/mpeg">
-
-</audio>
-
-<!-- ===========================
-        MUSIC BUTTON
-=========================== -->
-
-<button
-id="musicBtn"
-aria-label="Music">
-
-🎵
-
-</button>
-
-<!-- ===========================
-        MOBILE NAV
-=========================== -->
-
-<header>
-
-<nav class="navbar">
-
-<a
-href="#home"
-class="logo">
-
-🏫
-
-<span>
-
-H.S Public School
-
-</span>
-
-</a>
-
-<button
-class="menu-btn"
-id="menuBtn"
-aria-label="Open Menu">
-
-☰
-
-</button>
-
-<ul id="navLinks">
-
-<li>
-
-<a href="#home">
-
-Home
-
-</a>
-
-</li>
-
-<li>
-
-<a href="#about">
-
-School
-
-</a>
-
-</li>
-
-<li>
-
-<a href="#friends">
-
-Friends
-
-</a>
-
-</li>
-
-<li>
-
-<a href="#timeline">
-
-Journey
-
-</a>
-
-</li>
-
-<li>
-
-<a href="#gallery">
-
-Gallery
-
-</a>
-
-</li>
-
-<li>
-
-<a href="#memory">
-
-Memory Wall
-
-</a>
-
-</li>
-
-<li>
-
-<a href="#footer">
-
-Farewell
-
-</a>
-
-</li>
-
-</ul>
-
-</nav>
-
-</header>
-
-<!-- ===========================
-        HERO
-=========================== -->
-
-<section
-id="home"
-class="hero">
-
-<div class="hero-overlay"></div>
-
-<img
-src="assets/images/hero.jpg"
-alt="H.S Public School"
-class="hero-bg">
-
-<div class="hero-content">
-
-<span class="hero-tag">
-
-🏫 Since 2011
-
-</span>
-
-<h1>
-
-WELCOME BACK
-
-</h1>
-
-<h2>
-
-To The Place
-
-Where Our Story Began
-
-</h2>
-
-<p>
-
-Some classrooms teach lessons.
-
-Some classrooms create memories.
-
-This is where both happened.
-
-</p>
-
-<div class="hero-buttons">
-
-<a
-href="#about"
-class="btn">
-
-Explore School
-
-</a>
-
-<a
-href="#gallery"
-class="btn btn-outline">
-
-View Memories
-
-</a>
-
-</div>
-
-</div>
-
-<div class="scroll-indicator">
-
-<span></span>
-
-</div>
-
-</section>
-
-<main>
-
-<!-- ===========================
-        ABOUT STARTS HERE
-=========================== -->
-
-<!-- ======================================================
-                    ABOUT SCHOOL
-======================================================= -->
-
-<section id="about" class="about section">
-
-<div class="container">
-
-<div class="section-title">
-
-<span>🏫 OUR SCHOOL</span>
-
-<h2>
-Where Every Memory Began
-</h2>
-
-<p>
-
-Some schools teach lessons.
-
-Our school taught friendship,
-respect,
-dreams,
-and memories that still make us smile.
-
-</p>
-
-</div>
-
-<div class="about-grid">
-
-<div class="about-image">
-
-<img
-src="assets/images/school.png"
-alt="H.S Public School">
-
-</div>
-
-<div class="about-content">
-
-<div class="info-card">
-
-<h3>
-
-📖 Our Story
-
-</h3>
-
-<p>
-
-From morning assembly to the last school bell,
-every day gave us a new memory.
-
-These classrooms witnessed our dreams,
-our laughter,
-our mistakes,
-and our growth.
-
-</p>
-
-</div>
-
-<div class="stats">
-
-<div class="stat">
-
-<h2>10+</h2>
-
-<p>Best Friends</p>
-
-</div>
-
-<div class="stat">
-
-<h2>1000+</h2>
-
-<p>Laughs Shared</p>
-
-</div>
-
-<div class="stat">
-
-<h2>∞</h2>
-
-<p>Memories</p>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- ======================================================
-                    FRIENDS
-======================================================= -->
-
-<section id="friends" class="friends section">
-
-<div class="container">
-
-<div class="section-title">
-
-<span>❤️ OUR SQUAD</span>
-
-<h2>
-
-Friends Forever
-
-</h2>
-
-<p>
-
-People come and go.
-
-Real friends become memories.
-
-</p>
-
-</div>
-
-<div class="friends-grid">
-
-<!-- Lucky -->
-
-<div class="friend-card">
-
-<div class="friend-image">
-
-<img
-src="assets/images/friends/lucky.jpeg"
-alt="Lucky">
-
-</div>
-
-<div class="friend-info">
-
-<h3>Lucky</h3>
-
-<span>😆 Intelligent & Naughty</span>
-
-<p>
-
-Always making every school day fun.
-
-</p>
-
-<button class="friend-btn">
-
-View Memory
-
-</button>
-
-</div>
-
-</div>
-
-<!-- Anurag -->
-
-<div class="friend-card">
-
-<div class="friend-image">
-
-<img
-src="assets/images/friends/anurag.jpeg"
-alt="Anurag">
-
-</div>
-
-<div class="friend-info">
-
-<h3>Anurag</h3>
-
-<span>📚 Mathematics Lover</span>
-
-<p>
-
-The calculator of the classroom.
-
-</p>
-
-<button class="friend-btn">
-
-View Memory
-
-</button>
-
-</div>
-
-</div>
-
-<!-- Nishant -->
-
-<div class="friend-card">
-
-<div class="friend-image">
-
-<img
-src="assets/images/friends/nishant.jpeg"
-alt="Nishant">
-
-</div>
-
-<div class="friend-info">
-
-<h3>Nishant</h3>
-
-<span>😂 Class Comedian</span>
-
-<p>
-
-Every class became fun because of him.
-
-</p>
-
-<button class="friend-btn">
-
-View Memory
-
-</button>
-
-</div>
-
-</div>
-
-<!-- Jai -->
-
-<div class="friend-card">
-
-<div class="friend-image">
-
-<img
-src="assets/images/friends/jai.jpeg"
-alt="Jai">
-
-</div>
-
-<div class="friend-info">
-
-<h3>Jai</h3>
-
-<span>🤝 Loyal Friend</span>
-
-<p>
-
-Always there whenever someone needed him.
-
-</p>
-
-<button class="friend-btn">
-
-View Memory
-
-</button>
-
-</div>
-
-</div>
-
-<!-- Kashish -->
-
-<div class="friend-card">
-
-<div class="friend-image">
-
-<img
-src="assets/images/friends/kashish.jpeg"
-alt="Kashish">
-
-</div>
-
-<div class="friend-info">
-
-<h3>Kashish</h3>
-
-<span>🎨 Creative Soul</span>
-
-<p>
-
-Positive energy everywhere.
-
-</p>
-
-<button class="friend-btn">
-
-View Memory
-
-</button>
-
-</div>
-
-</div>
-
-<!-- Gudiya -->
-
-<div class="friend-card">
-
-<div class="friend-image">
-
-<img
-src="assets/images/friends/gudiya.jpeg"
-alt="Gudiya">
-
-</div>
-
-<div class="friend-info">
-
-<h3>Gudiya</h3>
-
-<span>🌸 Caring Heart</span>
-
-<p>
-
-Kindness made every day brighter.
-
-</p>
-
-<button class="friend-btn">
-
-View Memory
-
-</button>
-
-</div>
-
-</div>
-
-<!-- Manshi -->
-
-<div class="friend-card">
-
-<div class="friend-image">
-
-<img
-src="assets/images/friends/manshi.jpeg"
-alt="Manshi">
-
-</div>
-
-<div class="friend-info">
-
-<h3>Manshi</h3>
-
-<span>📖 Always Prepared</span>
-
-<p>
-
-Homework completed before everyone.
-
-</p>
-
-<button class="friend-btn">
-
-View Memory
-
-</button>
-
-</div>
-
-</div>
-
-<!-- Nitin -->
-
-<div class="friend-card">
-
-<div class="friend-image">
-
-<img
-src="assets/images/friends/nitin.jpeg"
-alt="Nitin">
-
-</div>
-
-<div class="friend-info">
-
-<h3>Nitin</h3>
-
-<span>🏏 Sports Lover</span>
-
-<p>
-
-Always energetic and smiling.
-
-</p>
-
-<button class="friend-btn">
-
-View Memory
-
-</button>
-
-</div>
-
-</div>
-
-<!-- Aashu -->
-
-<div class="friend-card">
-
-<div class="friend-image">
-
-<img
-src="assets/images/friends/aashu.jpeg"
-alt="Aashu">
-
-</div>
-
-<div class="friend-info">
-
-<h3>Aashu</h3>
-
-<span>😎 Fun Maker</span>
-
-<p>
-
-Never a boring moment around him.
-
-</p>
-
-<button class="friend-btn">
-
-View Memory
-
-</button>
-
-</div>
-
-</div>
-
-<!-- Vishnu -->
-
-<div class="friend-card">
-
-<div class="friend-image">
-
-<img
-src="assets/images/friends/vishnu.jpeg"
-alt="Vishnu">
-
-</div>
-
-<div class="friend-info">
-
-<h3>Vishnu</h3>
-
-<span>💡 Smart Mind</span>
-
-<p>
-
-A friend everyone remembers.
-
-</p>
-
-<button class="friend-btn">
-
-View Memory
-
-</button>
-
-</div>
-
-</div>
-
-<!-- Nishant -->
-
-<div class="friend-card">
-
-<div class="friend-image">
-
-<img
-src="assets/images/friends/nishant2.jpeg"
-alt="Nishant">
-
-</div>
-
-<div class="friend-info">
-
-<h3>Nishant</h3>
-
-<span>😂 Tan-Tan</span>
-
-<p>
-
-Another Comedian
-
-</p>
-
-<button class="friend-btn">
-
-View Memory
-
-</button>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- ======================================================
-            TIMELINE STARTS HERE
-======================================================= -->
-
-<!-- =====================================================
-                    SCHOOL JOURNEY
-====================================================== -->
-
-<section id="timeline" class="timeline section">
-
-<div class="container">
-
-<div class="section-title">
-
-<span>📚 OUR JOURNEY</span>
-
-<h2>The School Road</h2>
-
-<p>
-
-Every step created another unforgettable memory.
-
-</p>
-
-</div>
-
-<div class="timeline-road">
-
-<div class="timeline-item">
-
-<div class="timeline-icon">
-🎒
-</div>
-
-<div class="timeline-card">
-
-<h3>First Day</h3>
-
-<p>
-
-The beginning of everything.
-
-New classroom.
-
-New teachers.
-
-New friends.
-
-</p>
-
-</div>
-
-</div>
-
-<div class="timeline-item">
-
-<div class="timeline-icon">
-📖
-</div>
-
-<div class="timeline-card">
-
-<h3>Classroom Days</h3>
-
-<p>
-
-Homework.
-
-Jokes.
-
-Punishments.
-
-Bench partners.
-
-Everything became memories.
-
-</p>
-
-</div>
-
-</div>
-
-<div class="timeline-item">
-
-<div class="timeline-icon">
-🏏
-</div>
-
-<div class="timeline-card">
-
-<h3>Sports Day</h3>
-
-<p>
-
-Winning wasn't important.
-
-Playing together was.
-
-</p>
-
-</div>
-
-</div>
-
-<div class="timeline-item">
-
-<div class="timeline-icon">
-🎭
-</div>
-
-<div class="timeline-card">
-
-<h3>Annual Function</h3>
-
-<p>
-
-Dance.
-
-Music.
-
-Practice.
-
-Nervousness.
-
-Applause.
-
-</p>
-
-</div>
-
-</div>
-
-<div class="timeline-item">
-
-<div class="timeline-icon">
-📷
-</div>
-
-<div class="timeline-card">
-
-<h3>Class Photos</h3>
-
-<p>
-
-One click.
-
-Thousands of memories.
-
-</p>
-
-</div>
-
-</div>
-
-<div class="timeline-item">
-
-<div class="timeline-icon">
-🎓
-</div>
-
-<div class="timeline-card">
-
-<h3>Farewell</h3>
-
-<p>
-
-The hardest goodbye.
-
-The strongest memories.
-
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- =====================================================
-                    GALLERY
-====================================================== -->
-
-<section id="gallery" class="gallery-section section">
-
-<div class="container">
-
-<div class="section-title">
-
-<span>📸 GALLERY</span>
-
-<h2>Captured Memories</h2>
-
-<p>
-
-Tap any picture to view it in full screen.
-
-</p>
-
-</div>
-
-<div class="gallery-grid">
-
-<img src="assets/images/gallery1.jpg" alt="Gallery 1">
-
-<img src="assets/images/gallery2.jpeg" alt="Gallery 2">
-
-<img src="assets/images/gallery3.jpeg" alt="Gallery 3">
-
-<img src="assets/images/gallery4.jpeg" alt="Gallery 4">
-
-<img src="assets/images/gallery5.jpeg" alt="Gallery 5">
-
-<img src="assets/images/gallery6.jpeg" alt="Gallery 6">
-
-<img src="assets/images/gallery7.jpeg" alt="Gallery 7">
-
-<img src="assets/images/gallery8.jpeg" alt="Gallery 8">
-
-<img src="assets/images/gallery9.jpeg" alt="Gallery 9">
-
-<img src="assets/images/gallery10.jpeg" alt="Gallery 10">
-
-<img src="assets/images/gallery11.jpeg" alt="Gallery 11">
-
-<img src="assets/images/gallery12.jpeg" alt="Gallery 12">
-
-<img src="assets/images/gallery13.jpeg" alt="Gallery 12">
-
-<img src="assets/images/gallery14.jpeg" alt="Gallery 12">
-
-<img src="assets/images/gallery15.jpeg" alt="Gallery 12">
-
-<img src="assets/images/gallery16.jpeg" alt="Gallery 12">
-
-<img src="assets/images/gallery17.jpeg" alt="Gallery 12">
-
-<img src="assets/images/gallery18.jpeg" alt="Gallery 12">
-
-<img src="assets/images/gallery19.jpeg" alt="Gallery 12">
-
-<img src="assets/images/gallery20.jpeg" alt="Gallery 12">
-
-<img src="assets/images/gallery21.jpeg" alt="Gallery 12">
-
-</div>
-
-</div>
-
-</section>
-
-<!-- =====================================================
-                    FULLSCREEN VIEWER
-====================================================== -->
-
-<div id="lightbox" class="lightbox">
-
-<span id="closeLightbox">
-
-&times;
-
-</span>
-
-<button id="prevImage">
-
-❮
-
-</button>
-
-<img id="lightboxImage" src="" alt="Gallery Image">
-
-<button id="nextImage">
-
-❯
-
-</button>
-
-<div class="image-counter">
-
-<span id="currentImage">
-
-1
-
-</span>
-
-/
-
-<span id="totalImages">
-
-12
-
-</span>
-
-</div>
-
-</div>
-
-<!-- =====================================================
-                    CLASS PHOTO
-            STARTS FROM HERE
-====================================================== -->
-
-<!-- ======================================================
-                    CLASS PHOTO
-====================================================== -->
-
-<section id="class" class="class-photo section">
-
-<div class="container">
-
-<div class="section-title">
-
-<span>🏫 CLASS OF H.S PUBLIC SCHOOL</span>
-
-<h2>
-
-One Picture.
-
-A Thousand Memories.
-
-</h2>
-
-<p>
-
-Some photographs never grow old.
-
-</p>
-
-</div>
-
-<div class="class-wrapper">
-
-<img
-src="assets/images/class.jpeg"
-alt="Class Photo">
-
-<div class="class-content">
-
-<h3>
-
-We'll Never Stand Like This Again.
-
-</h3>
-
-<p>
-
-One classroom.
-
-One blackboard.
-
-One attendance register.
-
-One family.
-
-Years later,
-
-this photograph will remind us
-how beautiful those days really were.
-
-</p>
-
-<a href="#memory" class="btn">
-
-Continue
-
-</a>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- ======================================================
-                    MEMORY WALL
-====================================================== -->
-
-<section id="memory" class="memory section">
-
-<div class="container">
-
-<div class="section-title">
-
-<span>❤️ MEMORY WALL</span>
-
-<h2>
-
-Pinned Forever
-
-</h2>
-
-<p>
-
-Every friend leaves behind a memory.
-
-</p>
-
-</div>
-
-<div class="memory-board">
-
-<div class="memory-card">
-
-<h3>
-
-Lucky
-
-</h3>
-
-<p>
-
-"Those lunch breaks were worth more than gold."
-
-</p>
-
-</div>
-
-<div class="memory-card">
-
-<h3>
-
-Anurag
-
-</h3>
-
-<p>
-
-"We solved maths together...
-
-life became harder after school."
-
-</p>
-
-</div>
-
-<div class="memory-card">
-
-<h3>
-
-Nishant
-
-</h3>
-
-<p>
-
-"The classroom was never quiet."
-
-</p>
-
-</div>
-
-<div class="memory-card">
-
-<h3>
-
-Jai
-
-</h3>
-
-<p>
-
-"I wish we had one more school day."
-
-</p>
-
-</div>
-
-<div class="memory-card">
-
-<h3>
-
-Kashish
-
-</h3>
-
-<p>
-
-"Friendship made every day brighter."
-
-</p>
-
-</div>
-
-<div class="memory-card">
-
-<h3>
-
-Manshi
-
-</h3>
-
-<p>
-
-"The happiest memories came from ordinary days."
-
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- ======================================================
-                    GUEST BOOK
-====================================================== -->
-
-<section class="guestbook section">
-
-<div class="container">
-
-<div class="section-title">
-
-<span>📝 GUEST BOOK</span>
-
-<h2>
-
-Leave A Memory
-
-</h2>
-
-<p>
-
-Write one beautiful memory of school.
-
-</p>
-
-</div>
-
-<form class="memory-form">
-
-<input
-type="text"
-placeholder="Your Name">
-
-<textarea
-placeholder="Write your memory..."></textarea>
-
-<button
-type="submit"
-class="btn">
-
-Submit Memory
-
-</button>
-
-</form>
-
-</div>
-
-</section>
-
-<!-- ======================================================
-                    LAST BELL
-====================================================== -->
-
-<section class="last-bell section">
-
-<div class="container">
-
-<div class="bell-box">
-
-<div class="bell-icon">
-
-🔔
-
-</div>
-
-<h2>
-
-The Last Bell
-
-</h2>
-
-<p>
-
-One afternoon,
-
-the school bell rang.
-
-We packed our bags.
-
-Walked through the school gate.
-
-Smiled.
-
-Said goodbye.
-
-None of us knew...
-
-that was the last ordinary day we'd ever spend together.
-
-</p>
-
-</div>
-
-</div>
-
-</section>
-
-<!-- ======================================================
-                    FAREWELL
-====================================================== -->
-
-<section class="farewell section">
-
-<div class="container">
-
-<h2>
-
-Thank You,
-
-My Friends ❤️
-
-</h2>
-
-<p>
-
-Life will keep changing.
-
-Cities will change.
-
-Jobs will change.
-
-Dreams will change.
-
-But the memories we made together
-inside H.S Public School
-
-will never fade.
-
-</p>
-
-<a
-href="#home"
-class="btn">
-
-Back To Beginning
-
-</a>
-
-</div>
-
-</section>
-
-<!-- ======================================================
-                    FOOTER STARTS HERE
-====================================================== -->
-
-<!-- ======================================================
-                        FOOTER
-====================================================== -->
-
-<footer id="footer" class="footer">
-
-<div class="container">
-
-<div class="footer-content">
-
-<div class="footer-brand">
-
-<h2>
-
-🏫 H.S Public School
-
-</h2>
-
-<p>
-
-School ends.
-
-Friendship never does.
-
-This website is dedicated to every unforgettable moment,
-every smile,
-every friendship,
-and every memory we created together.
-
-</p>
-
-</div>
-
-<div class="footer-links">
-
-<h3>
-
-Quick Links
-
-</h3>
-
-<ul>
-
-<li><a href="#home">Home</a></li>
-
-<li><a href="#about">About</a></li>
-
-<li><a href="#friends">Friends</a></li>
-
-<li><a href="#timeline">Journey</a></li>
-
-<li><a href="#gallery">Gallery</a></li>
-
-<li><a href="#memory">Memory Wall</a></li>
-
-</ul>
-
-</div>
-
-<div class="footer-social">
-
-<h3>
-
-Connect
-
-</h3>
-
-<a href="https://github.com/jaivdn" target="_blank" rel="noopener noreferrer">
-GitHub
-</a>
-
-<a href="https://www.linkedin.com/in/jayvardhansingh2210"
-target="_blank"
-rel="noopener noreferrer">
-LinkedIn
-</a>
-
-<a href="https://jaivdn.github.io/Portfolio/"
-target="_blank"
-rel="noopener noreferrer">
-Portfolio
-</a>
-
-</div>
-
-</div>
-
-<hr>
-
-<div class="copyright">
-
-<p>
-
-© 2026 H.S Public School Memories.
-
-Designed & Developed with ❤️ by
-
-<strong>Jayvardhan Singh</strong>
-
-</p>
-
-</div>
-
-</div>
-
-</footer>
-
-<!-- ======================================================
-                    BACK TO TOP
-====================================================== -->
-
-<button
-id="backToTop"
-class="back-to-top"
-aria-label="Back to top">
-
-↑
-
-</button>
-
-<!-- ======================================================
-                    FRIEND POPUP
-====================================================== -->
-
-<div
-id="friendModal"
-class="friend-modal">
-
-<div class="modal-content">
-
-<button
-id="closeModal"
-class="close-modal"
-aria-label="Close">
-
-&times;
-
-</button>
-
-<img
-id="modalImage"
-src=""
-alt="Friend Photo">
-
-<h2 id="modalName">
-
-Friend Name
-
-</h2>
-
-<p id="modalText">
-
-Friend memories will appear here.
-
-</p>
-
-</div>
-
-</div>
-
-<!-- ======================================================
-                    FLOATING PARTICLES
-====================================================== -->
-
-<div class="particles">
-
-<span></span>
-<span></span>
-<span></span>
-<span></span>
-<span></span>
-<span></span>
-<span></span>
-<span></span>
-
-</div>
-
-<!-- ======================================================
-                    PAPER AIRPLANES
-====================================================== -->
-
-<div class="paper-airplanes">
-
-<div class="plane">✈️</div>
-
-<div class="plane">✈️</div>
-
-<div class="plane">✈️</div>
-
-</div>
-
-<!-- ======================================================
-                    SCRIPTS
-====================================================== -->
-
-<script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
-
-<script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js"></script>
-
-<script src="https://cdn.jsdelivr.net/npm/lenis@1.3.11/dist/lenis.min.js"></script>
-
-<script src="js/script.js"></script>
-
-</main>
-
-</body>
-
-</html>
+        <head>
+                <meta charset="UTF-8"><meta name="viewport"
+                        content="width=device-width, initial-scale=1.0">
+                <meta name="description"
+                        content="H.S Public School — a digital memory book dedicated to unforgettable school days, friends and memories.">
+                <meta name="theme-color" content="#090b12"><meta name="author"
+                        content="Jayvardhan Singh">
+                <meta property="og:title"
+                        content="H.S Public School | The Last Bell"><meta
+                        property="og:description"
+                        content="School ends. Friendship never does.">
+                <meta property="og:image" content="assets/images/hero.jpg"><link
+                        rel="icon" href="assets/icons/favicon.png">
+                <title>H.S Public School — The Last Bell · v2.0</title>
+                <link rel="preconnect" href="https://fonts.googleapis.com"><link
+                        rel="preconnect" href="https://fonts.gstatic.com"
+                        crossorigin>
+                <link
+                        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap"
+                        rel="stylesheet">
+                <style>
+:root{--bg:#090b12;--surface:#10131c;--surface2:#171b26;--text:#f5f7fb;--muted:#a7adbd;--line:rgba(255,255,255,.1);--accent:#8eb8ff;--accent2:#c9dcff;--shadow:0 24px 70px rgba(0,0,0,.35);--radius:24px;--max:1180px}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{background:var(--bg);color:var(--text);font-family:"DM Sans",sans-serif;line-height:1.65;overflow-x:hidden}body.lock{overflow:hidden}img{display:block;max-width:100%}button,a{font:inherit}a{color:inherit;text-decoration:none}button{border:0;cursor:pointer;color:inherit}::selection{background:var(--accent);color:#06101f}
+.container{width:min(calc(100% - 40px),var(--max));margin:auto}.section{padding:110px 0;position:relative}.eyebrow{display:inline-flex;gap:8px;align-items:center;color:var(--accent2);font-size:.78rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase}.section-title{max-width:720px;margin:0 auto 54px;text-align:center}.section-title h2{font:700 clamp(2.2rem,5vw,4rem)/1.08 "Playfair Display",serif;margin:12px 0 16px}.section-title p{color:var(--muted);font-size:1.02rem}
+.loader{position:fixed;inset:0;z-index:9999;display:grid;place-items:center;background:#07090e;transition:opacity .7s,visibility .7s}.loader.hide{opacity:0;visibility:hidden}.loader-box{text-align:center;padding:35px}.loader-logo{width:86px;height:86px;object-fit:contain;margin:0 auto 18px}.loader h1{font:700 1.7rem "Playfair Display",serif}.loader p{color:var(--muted);margin:6px 0 22px}.enter-btn,.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:13px 21px;border-radius:999px;background:var(--text);color:#0a0d14;font-weight:700;transition:.25s}.enter-btn:hover,.btn:hover{transform:translateY(-3px)}
+.header{position:fixed;top:0;left:0;right:0;z-index:1000;padding:16px 0;transition:.3s}.header.scrolled{background:rgba(9,11,18,.78);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}.nav{height:60px;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;align-items:center;gap:10px;font-weight:800}.brand-mark{width:40px;height:40px;border-radius:13px;display:grid;place-items:center;background:rgba(255,255,255,.08);border:1px solid var(--line)}.nav-links{display:flex;align-items:center;gap:5px;list-style:none}.nav-links a{padding:9px 12px;border-radius:10px;color:#c8cdd8;font-size:.9rem}.nav-links a:hover,.nav-links a.active{background:rgba(255,255,255,.07);color:#fff}.menu{display:none;background:rgba(255,255,255,.08);border:1px solid var(--line);width:42px;height:42px;border-radius:12px}
+.hero{min-height:100svh;position:relative;display:grid;place-items:center;overflow:hidden}.hero-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:brightness(.42) saturate(.75);transform:scale(1.04)}.hero:after{content:"";position:absolute;inset:0;background:radial-gradient(circle at 50% 35%,transparent 0 18%,rgba(9,11,18,.45) 62%,#090b12 100%)}.hero-content{position:relative;z-index:2;width:min(900px,calc(100% - 40px));text-align:center;padding-top:70px}.hero-tag{display:inline-flex;padding:8px 13px;border:1px solid var(--line);border-radius:999px;background:rgba(0,0,0,.25);backdrop-filter:blur(10px);font-size:.78rem;letter-spacing:.1em;text-transform:uppercase}.hero h1{font:800 clamp(3.6rem,10vw,8rem)/.9 "Playfair Display",serif;letter-spacing:-.04em;margin:24px 0 16px}.hero h2{font:600 clamp(1.25rem,3vw,2.2rem)/1.2 "Playfair Display",serif;color:#d9deea}.hero p{max-width:580px;margin:22px auto;color:#c0c6d2;font-size:1.05rem}.hero-actions{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:28px}.btn.ghost{background:rgba(255,255,255,.06);color:#fff;border:1px solid var(--line);box-shadow:none}.scroll{position:absolute;bottom:28px;z-index:3;color:#9ca4b5;font-size:.75rem;letter-spacing:.16em;text-transform:uppercase}
+.about-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:70px;align-items:center}.about-image{border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);box-shadow:var(--shadow)}.about-image img{width:100%;aspect-ratio:4/3;object-fit:cover}.story-card{background:linear-gradient(145deg,var(--surface2),var(--surface));padding:32px;border:1px solid var(--line);border-radius:var(--radius)}.story-card h3{font:700 1.6rem "Playfair Display",serif;margin-bottom:14px}.story-card p{color:var(--muted)}.stats{display:grid;grid-template-columns:repeat(3,1fr);margin-top:18px;gap:12px}.stat{padding:20px;border:1px solid var(--line);border-radius:18px;background:rgba(255,255,255,.025);text-align:center}.stat strong{display:block;font:700 1.8rem "Playfair Display",serif}.stat span{color:var(--muted);font-size:.8rem}
+.friends{background:linear-gradient(180deg,transparent,rgba(255,255,255,.018),transparent)}.friends-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.friend-card{background:var(--surface);border:1px solid var(--line);border-radius:22px;overflow:hidden;transition:.35s;box-shadow:0 12px 40px rgba(0,0,0,.12)}.friend-card:hover{transform:translateY(-7px);border-color:rgba(142,184,255,.35);box-shadow:var(--shadow)}.friend-photo{aspect-ratio:1/1;overflow:hidden;background:#151922}.friend-photo img{width:100%;height:100%;object-fit:cover;transition:.5s}.friend-card:hover .friend-photo img{transform:scale(1.06)}.friend-info{padding:20px}.friend-role{color:var(--accent2);font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em}.friend-info h3{font:700 1.45rem "Playfair Display",serif;margin:4px 0 6px}.friend-info p{color:var(--muted);font-size:.9rem;min-height:48px}.memory-btn{margin-top:15px;background:none;color:#dbe7ff;font-weight:700;font-size:.88rem}.memory-btn span{display:inline-block;transition:.2s}.memory-btn:hover span{transform:translate(3px,-3px)}
+.timeline-road{position:relative;max-width:900px;margin:auto}.timeline-road:before{content:"";position:absolute;left:28px;top:0;bottom:0;width:1px;background:linear-gradient(var(--accent),transparent)}.timeline-item{position:relative;display:grid;grid-template-columns:58px 1fr;gap:24px;margin:0 0 28px}.timeline-icon{width:58px;height:58px;border-radius:18px;display:grid;place-items:center;background:var(--surface2);border:1px solid var(--line);z-index:1}.timeline-card{padding:25px;border:1px solid var(--line);background:var(--surface);border-radius:20px}.timeline-card h3{font:700 1.35rem "Playfair Display",serif}.timeline-card p{color:var(--muted);margin-top:5px}
+.gallery-grid{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:220px;gap:12px}.gallery-item{position:relative;overflow:hidden;border-radius:18px;background:var(--surface);border:1px solid var(--line);padding:0}.gallery-item:nth-child(1),.gallery-item:nth-child(6),.gallery-item:nth-child(11){grid-column:span 2}.gallery-item img{width:100%;height:100%;object-fit:cover;transition:.45s}.gallery-overlay{position:absolute;inset:auto 12px 12px 12px;padding:10px 13px;border-radius:12px;background:rgba(0,0,0,.62);backdrop-filter:blur(8px);opacity:0;transform:translateY(8px);transition:.25s;text-align:left;font-size:.82rem}.gallery-item:hover img{transform:scale(1.05)}.gallery-item:hover .gallery-overlay{opacity:1;transform:none}
+.class-wrap{display:grid;grid-template-columns:1.25fr .75fr;gap:0;background:var(--surface);border:1px solid var(--line);border-radius:28px;overflow:hidden;box-shadow:var(--shadow)}.class-wrap img{width:100%;height:100%;min-height:430px;object-fit:cover}.class-copy{padding:45px;display:flex;flex-direction:column;justify-content:center}.class-copy h3{font:700 clamp(1.8rem,3vw,2.8rem)/1.1 "Playfair Display",serif;margin-bottom:18px}.class-copy p{color:var(--muted);white-space:pre-line}
+.memory-board{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.note{padding:28px;background:#171a22;border:1px solid var(--line);border-radius:18px;min-height:180px;transform:rotate(var(--r));transition:.3s}.note:hover{transform:rotate(0) translateY(-5px)}.note h3{font:700 1.25rem "Playfair Display",serif;margin-bottom:12px}.note p{color:#c4c9d3;font-style:italic}
+.guestbook{background:linear-gradient(180deg,rgba(255,255,255,.018),transparent)}.memory-form{max-width:680px;margin:auto;display:grid;gap:12px}input,textarea{width:100%;background:var(--surface);border:1px solid var(--line);border-radius:15px;padding:15px 17px;color:#fff;outline:none}input:focus,textarea:focus{border-color:rgba(142,184,255,.65);box-shadow:0 0 0 4px rgba(142,184,255,.08)}textarea{min-height:150px;resize:vertical}
+.last-bell{text-align:center}.bell-box{max-width:850px;margin:auto;padding:65px 30px;border:1px solid var(--line);border-radius:30px;background:radial-gradient(circle at center,rgba(142,184,255,.08),transparent 55%),var(--surface)}.bell-icon{font-size:3rem;margin-bottom:12px}.bell-box h2,.farewell h2{font:700 clamp(2.5rem,6vw,5rem)/1 "Playfair Display",serif}.bell-box p,.farewell p{max-width:650px;margin:22px auto 0;color:var(--muted);font-size:1.05rem}.farewell{text-align:center;padding-top:40px}.farewell .btn{margin-top:25px}
+.footer{padding:70px 0 30px;border-top:1px solid var(--line)}.footer-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:50px}.footer h3{font-size:1rem;margin-bottom:14px}.footer p,.footer a{color:var(--muted);font-size:.9rem}.footer-links{display:grid;gap:7px}.copyright{border-top:1px solid var(--line);margin-top:45px;padding-top:22px;text-align:center;color:#747c8c;font-size:.8rem}
+.music,.top{position:fixed;right:22px;z-index:900;width:46px;height:46px;border-radius:50%;background:rgba(16,19,28,.82);border:1px solid var(--line);backdrop-filter:blur(12px);display:grid;place-items:center}.music{bottom:22px}.top{bottom:78px;opacity:0;pointer-events:none;transition:.25s}.top.show{opacity:1;pointer-events:auto}
+.modal{position:fixed;inset:0;z-index:2000;display:none;place-items:center;padding:20px;background:rgba(0,0,0,.82);backdrop-filter:blur(12px)}.modal.open{display:grid}.modal-box{position:relative;width:min(520px,100%);background:var(--surface);border:1px solid var(--line);border-radius:25px;overflow:hidden;box-shadow:var(--shadow)}.modal-box img{width:100%;max-height:55vh;object-fit:cover}.modal-copy{padding:25px}.modal-copy h2{font:700 2rem "Playfair Display",serif}.modal-copy p{color:var(--muted);margin-top:5px}.close{position:absolute;top:12px;right:12px;width:40px;height:40px;border-radius:50%;background:rgba(0,0,0,.65);font-size:1.5rem}
+.toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,20px);z-index:3000;background:#f5f7fb;color:#090b12;padding:12px 18px;border-radius:999px;font-weight:700;font-size:.85rem;opacity:0;pointer-events:none;transition:.3s}.toast.show{opacity:1;transform:translate(-50%,0)}
+.reveal{opacity:0;transform:translateY(24px);transition:opacity .7s,transform .7s}.reveal.visible{opacity:1;transform:none}
+@media(max-width:950px){.nav-links{position:absolute;top:68px;left:20px;right:20px;display:none;flex-direction:column;align-items:stretch;padding:10px;background:rgba(16,19,28,.97);border:1px solid var(--line);border-radius:18px;backdrop-filter:blur(18px)}.nav-links.open{display:flex}.nav-links a{display:block;padding:12px 14px}.menu{display:grid;place-items:center}.friends-grid{grid-template-columns:repeat(2,1fr)}.gallery-grid{grid-template-columns:repeat(2,1fr)}.class-wrap{grid-template-columns:1fr}.class-wrap img{min-height:300px;max-height:500px}.footer-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:650px){.container{width:min(calc(100% - 28px),var(--max))}.section{padding:80px 0}.hero-content{padding-top:55px}.hero h1{font-size:clamp(3.1rem,17vw,5rem)}.about-grid{grid-template-columns:1fr;gap:28px}.stats{grid-template-columns:1fr 1fr 1fr}.stat{padding:14px 8px}.stat strong{font-size:1.45rem}.friends-grid,.memory-board,.footer-grid{grid-template-columns:1fr}.gallery-grid{grid-template-columns:1fr 1fr;grid-auto-rows:170px}.gallery-item:nth-child(1),.gallery-item:nth-child(6),.gallery-item:nth-child(11){grid-column:span 2}.timeline-item{grid-template-columns:45px 1fr;gap:15px}.timeline-icon{width:45px;height:45px;border-radius:14px}.timeline-road:before{left:22px}.class-copy{padding:30px 24px}.bell-box{padding:45px 20px}.music{right:15px;bottom:15px}.top{right:15px;bottom:70px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;transition-duration:.01ms!important}}
+</style>
+        </head>
+        <body>
+                <div class="loader" id="loader"><div class="loader-box"><img
+                                        class="loader-logo"
+                                        src="assets/images/logo.png"
+                                        alt="H.S Public School logo"><h1>H.S
+                                        PUBLIC SCHOOL</h1><p>Where memories
+                                        never graduate.</p><button
+                                        class="enter-btn" id="enterBtn">🔔 Enter
+                                        School</button></div></div>
+                <audio id="bell" preload="auto"><source
+                                src="assets/audio/school-bell.mp3"
+                                type="audio/mpeg"></audio><audio id="bgMusic"
+                        loop preload="none"><source
+                                src="assets/audio/memories.mp3"
+                                type="audio/mpeg"></audio>
+                <header class="header" id="header"><nav class="nav container"><a
+                                        class="brand" href="#home"><span
+                                                class="brand-mark">🏫</span><span>H.S
+                                                Public School</span></a><button
+                                        class="menu" id="menu"
+                                        aria-label="Open navigation"
+                                        aria-expanded="false">☰</button><ul
+                                        class="nav-links" id="navLinks"><li><a
+                                                        href="#home">Home</a></li><li><a
+                                                        href="#about">School</a></li><li><a
+                                                        href="#friends">Friends</a></li><li><a
+                                                        href="#timeline">Journey</a></li><li><a
+                                                        href="#gallery">Gallery</a></li><li><a
+                                                        href="#memory">Memory
+                                                        Wall</a></li><li><a
+                                                        href="#farewell">Farewell</a></li></ul></nav></header>
+                <button class="music" id="musicBtn"
+                        aria-label="Toggle background music">🎵</button><button
+                        class="top" id="topBtn"
+                        aria-label="Back to top">↑</button>
+                <section class="hero" id="home"><img class="hero-bg"
+                                src="assets/images/hero.jpg" alt
+                                aria-hidden="true"><div
+                                class="hero-content"><span class="hero-tag">🏫
+                                        Since 2011 · Memory
+                                        Edition</span><h1>WELCOME<br>BACK</h1><h2>To
+                                        the place where our story
+                                        began.</h2><p>Some classrooms teach
+                                        lessons. Some classrooms create
+                                        memories. This is where both
+                                        happened.</p><div
+                                        class="hero-actions"><a class="btn"
+                                                href="#about">Explore School
+                                                ↓</a><a class="btn ghost"
+                                                href="#gallery">View
+                                                Memories</a></div></div><div
+                                class="scroll">Scroll to remember
+                                ↓</div></section>
+                <main>
+                        <section class="section" id="about"><div
+                                        class="container"><div
+                                                class="section-title"><span
+                                                        class="eyebrow">🏫 Our
+                                                        School</span><h2>Where
+                                                        every memory
+                                                        began.</h2><p>Some
+                                                        schools teach lessons.
+                                                        Our school taught
+                                                        friendship, respect,
+                                                        dreams and memories that
+                                                        still make us
+                                                        smile.</p></div><div
+                                                class="about-grid"><div
+                                                        class="about-image reveal"><img
+                                                                src="assets/images/school.png"
+                                                                alt="H.S Public School"
+                                                                loading="lazy"></div><div
+                                                        class="reveal"><div
+                                                                class="story-card"><h3>📖
+                                                                        Our
+                                                                        Story</h3><p>From
+                                                                        morning
+                                                                        assembly
+                                                                        to the
+                                                                        last
+                                                                        school
+                                                                        bell,
+                                                                        every
+                                                                        day gave
+                                                                        us a new
+                                                                        memory.
+                                                                        These
+                                                                        classrooms
+                                                                        witnessed
+                                                                        our
+                                                                        dreams,
+                                                                        our
+                                                                        laughter,
+                                                                        our
+                                                                        mistakes
+                                                                        and our
+                                                                        growth.</p></div><div
+                                                                class="stats"><div
+                                                                        class="stat"><strong>10+</strong><span>Best
+                                                                                Friends</span></div><div
+                                                                        class="stat"><strong>1000+</strong><span>Laughs
+                                                                                Shared</span></div><div
+                                                                        class="stat"><strong>∞</strong><span>Memories</span></div></div></div></div></div></section>
+                        <section class="section friends" id="friends"><div
+                                        class="container"><div
+                                                class="section-title"><span
+                                                        class="eyebrow">❤️ Our
+                                                        Squad</span><h2>Friends
+                                                        Forever.</h2><p>People
+                                                        come and go. Real
+                                                        friends become
+                                                        memories.</p></div><div
+                                                class="friends-grid"><article
+                                                        class="friend-card reveal">
+                                                        <div
+                                                                class="friend-photo"><img
+                                                                        src="assets/images/friends/lucky.jpeg"
+                                                                        alt="Lucky"
+                                                                        loading="lazy"></div>
+                                                        <div
+                                                                class="friend-info"><span
+                                                                        class="friend-role">😆
+                                                                        Intelligent
+                                                                        &
+                                                                        Naughty</span><h3>Lucky</h3><p>Always
+                                                                        making
+                                                                        every
+                                                                        school
+                                                                        day
+                                                                        fun.</p>
+                                                                <button
+                                                                        class="memory-btn"
+                                                                        data-name="Lucky"
+                                                                        data-role="😆 Intelligent & Naughty"
+                                                                        data-text="Always making every school day fun."
+                                                                        data-image="assets/images/friends/lucky.jpeg">View
+                                                                        Memory
+                                                                        <span>↗</span></button>
+                                                        </div></article>
+                                                <article
+                                                        class="friend-card reveal">
+                                                        <div
+                                                                class="friend-photo"><img
+                                                                        src="assets/images/friends/anurag.jpeg"
+                                                                        alt="Anurag"
+                                                                        loading="lazy"></div>
+                                                        <div
+                                                                class="friend-info"><span
+                                                                        class="friend-role">📚
+                                                                        Mathematics
+                                                                        Lover</span><h3>Anurag</h3><p>The
+                                                                        calculator
+                                                                        of the
+                                                                        classroom.</p>
+                                                                <button
+                                                                        class="memory-btn"
+                                                                        data-name="Anurag"
+                                                                        data-role="📚 Mathematics Lover"
+                                                                        data-text="The calculator of the classroom."
+                                                                        data-image="assets/images/friends/anurag.jpeg">View
+                                                                        Memory
+                                                                        <span>↗</span></button>
+                                                        </div></article>
+                                                <article
+                                                        class="friend-card reveal">
+                                                        <div
+                                                                class="friend-photo"><img
+                                                                        src="assets/images/friends/nishant.jpeg"
+                                                                        alt="Nishant"
+                                                                        loading="lazy"></div>
+                                                        <div
+                                                                class="friend-info"><span
+                                                                        class="friend-role">😂
+                                                                        Class
+                                                                        Comedian</span><h3>Nishant</h3><p>Every
+                                                                        class
+                                                                        became
+                                                                        fun
+                                                                        because
+                                                                        of
+                                                                        him.</p>
+                                                                <button
+                                                                        class="memory-btn"
+                                                                        data-name="Nishant"
+                                                                        data-role="😂 Class Comedian"
+                                                                        data-text="Every class became fun because of him."
+                                                                        data-image="assets/images/friends/nishant.jpeg">View
+                                                                        Memory
+                                                                        <span>↗</span></button>
+                                                        </div></article>
+                                                <article
+                                                        class="friend-card reveal">
+                                                        <div
+                                                                class="friend-photo"><img
+                                                                        src="assets/images/friends/jai.jpeg"
+                                                                        alt="Jai"
+                                                                        loading="lazy"></div>
+                                                        <div
+                                                                class="friend-info"><span
+                                                                        class="friend-role">🤝
+                                                                        Loyal
+                                                                        Friend</span><h3>Jai</h3><p>Always
+                                                                        there
+                                                                        whenever
+                                                                        someone
+                                                                        needed
+                                                                        him.</p>
+                                                                <button
+                                                                        class="memory-btn"
+                                                                        data-name="Jai"
+                                                                        data-role="🤝 Loyal Friend"
+                                                                        data-text="Always there whenever someone needed him."
+                                                                        data-image="assets/images/friends/jai.jpeg">View
+                                                                        Memory
+                                                                        <span>↗</span></button>
+                                                        </div></article>
+                                                <article
+                                                        class="friend-card reveal">
+                                                        <div
+                                                                class="friend-photo"><img
+                                                                        src="assets/images/friends/kashish.jpeg"
+                                                                        alt="Kashish"
+                                                                        loading="lazy"></div>
+                                                        <div
+                                                                class="friend-info"><span
+                                                                        class="friend-role">🎨
+                                                                        Creative
+                                                                        Soul</span><h3>Kashish</h3><p>Positive
+                                                                        energy
+                                                                        everywhere.</p>
+                                                                <button
+                                                                        class="memory-btn"
+                                                                        data-name="Kashish"
+                                                                        data-role="🎨 Creative Soul"
+                                                                        data-text="Positive energy everywhere."
+                                                                        data-image="assets/images/friends/kashish.jpeg">View
+                                                                        Memory
+                                                                        <span>↗</span></button>
+                                                        </div></article>
+                                                <article
+                                                        class="friend-card reveal">
+                                                        <div
+                                                                class="friend-photo"><img
+                                                                        src="assets/images/friends/gudiya.jpeg"
+                                                                        alt="Gudiya"
+                                                                        loading="lazy"></div>
+                                                        <div
+                                                                class="friend-info"><span
+                                                                        class="friend-role">🌸
+                                                                        Caring
+                                                                        Heart</span><h3>Gudiya</h3><p>Kindness
+                                                                        made
+                                                                        every
+                                                                        day
+                                                                        brighter.</p>
+                                                                <button
+                                                                        class="memory-btn"
+                                                                        data-name="Gudiya"
+                                                                        data-role="🌸 Caring Heart"
+                                                                        data-text="Kindness made every day brighter."
+                                                                        data-image="assets/images/friends/gudiya.jpeg">View
+                                                                        Memory
+                                                                        <span>↗</span></button>
+                                                        </div></article>
+                                                <article
+                                                        class="friend-card reveal">
+                                                        <div
+                                                                class="friend-photo"><img
+                                                                        src="assets/images/friends/manshi.jpeg"
+                                                                        alt="Manshi"
+                                                                        loading="lazy"></div>
+                                                        <div
+                                                                class="friend-info"><span
+                                                                        class="friend-role">📖
+                                                                        Always
+                                                                        Prepared</span><h3>Manshi</h3><p>Homework
+                                                                        completed
+                                                                        before
+                                                                        everyone.</p>
+                                                                <button
+                                                                        class="memory-btn"
+                                                                        data-name="Manshi"
+                                                                        data-role="📖 Always Prepared"
+                                                                        data-text="Homework completed before everyone."
+                                                                        data-image="assets/images/friends/manshi.jpeg">View
+                                                                        Memory
+                                                                        <span>↗</span></button>
+                                                        </div></article>
+                                                <article
+                                                        class="friend-card reveal">
+                                                        <div
+                                                                class="friend-photo"><img
+                                                                        src="assets/images/friends/nitin.jpeg"
+                                                                        alt="Nitin"
+                                                                        loading="lazy"></div>
+                                                        <div
+                                                                class="friend-info"><span
+                                                                        class="friend-role">🏏
+                                                                        Sports
+                                                                        Lover</span><h3>Nitin</h3><p>Always
+                                                                        energetic
+                                                                        and
+                                                                        smiling.</p>
+                                                                <button
+                                                                        class="memory-btn"
+                                                                        data-name="Nitin"
+                                                                        data-role="🏏 Sports Lover"
+                                                                        data-text="Always energetic and smiling."
+                                                                        data-image="assets/images/friends/nitin.jpeg">View
+                                                                        Memory
+                                                                        <span>↗</span></button>
+                                                        </div></article>
+                                                <article
+                                                        class="friend-card reveal">
+                                                        <div
+                                                                class="friend-photo"><img
+                                                                        src="assets/images/friends/aashu.jpeg"
+                                                                        alt="Aashu"
+                                                                        loading="lazy"></div>
+                                                        <div
+                                                                class="friend-info"><span
+                                                                        class="friend-role">😎
+                                                                        Fun
+                                                                        Maker</span><h3>Aashu</h3><p>Never
+                                                                        a boring
+                                                                        moment
+                                                                        around
+                                                                        him.</p>
+                                                                <button
+                                                                        class="memory-btn"
+                                                                        data-name="Aashu"
+                                                                        data-role="😎 Fun Maker"
+                                                                        data-text="Never a boring moment around him."
+                                                                        data-image="assets/images/friends/aashu.jpeg">View
+                                                                        Memory
+                                                                        <span>↗</span></button>
+                                                        </div></article>
+                                                <article
+                                                        class="friend-card reveal">
+                                                        <div
+                                                                class="friend-photo"><img
+                                                                        src="assets/images/friends/vishnu.jpeg"
+                                                                        alt="Vishnu"
+                                                                        loading="lazy"></div>
+                                                        <div
+                                                                class="friend-info"><span
+                                                                        class="friend-role">💡
+                                                                        Smart
+                                                                        Mind</span><h3>Vishnu</h3><p>A
+                                                                        friend
+                                                                        everyone
+                                                                        remembers.</p>
+                                                                <button
+                                                                        class="memory-btn"
+                                                                        data-name="Vishnu"
+                                                                        data-role="💡 Smart Mind"
+                                                                        data-text="A friend everyone remembers."
+                                                                        data-image="assets/images/friends/vishnu.jpeg">View
+                                                                        Memory
+                                                                        <span>↗</span></button>
+                                                        </div></article>
+                                                <article
+                                                        class="friend-card reveal">
+                                                        <div
+                                                                class="friend-photo"><img
+                                                                        src="assets/images/friends/nishant2.jpeg"
+                                                                        alt="Nishant"
+                                                                        loading="lazy"></div>
+                                                        <div
+                                                                class="friend-info"><span
+                                                                        class="friend-role">😂
+                                                                        Tan-Tan</span><h3>Nishant</h3><p>Another
+                                                                        Comedian</p>
+                                                                <button
+                                                                        class="memory-btn"
+                                                                        data-name="Nishant"
+                                                                        data-role="😂 Tan-Tan"
+                                                                        data-text="Another Comedian"
+                                                                        data-image="assets/images/friends/nishant2.jpeg">View
+                                                                        Memory
+                                                                        <span>↗</span></button>
+                                                        </div></article></div></div></section>
+                        <section class="section" id="timeline"><div
+                                        class="container"><div
+                                                class="section-title"><span
+                                                        class="eyebrow">📚 Our
+                                                        Journey</span><h2>The
+                                                        school
+                                                        road.</h2><p>Every step
+                                                        created another
+                                                        unforgettable
+                                                        memory.</p></div><div
+                                                class="timeline-road">
+                                                <div
+                                                        class="timeline-item reveal"><div
+                                                                class="timeline-icon">🎒</div><div
+                                                                class="timeline-card"><h3>First
+                                                                        Day</h3><p>The
+                                                                        beginning
+                                                                        of
+                                                                        everything.
+                                                                        New
+                                                                        classroom.
+                                                                        New
+                                                                        teachers.
+                                                                        New
+                                                                        friends.</p></div></div>
+                                                <div
+                                                        class="timeline-item reveal"><div
+                                                                class="timeline-icon">📖</div><div
+                                                                class="timeline-card"><h3>Classroom
+                                                                        Days</h3><p>Homework.
+                                                                        Jokes.
+                                                                        Punishments.
+                                                                        Bench
+                                                                        partners.
+                                                                        Everything
+                                                                        became
+                                                                        memories.</p></div></div>
+                                                <div
+                                                        class="timeline-item reveal"><div
+                                                                class="timeline-icon">🏏</div><div
+                                                                class="timeline-card"><h3>Sports
+                                                                        Day</h3><p>Winning
+                                                                        wasn't
+                                                                        important.
+                                                                        Playing
+                                                                        together
+                                                                        was.</p></div></div>
+                                                <div
+                                                        class="timeline-item reveal"><div
+                                                                class="timeline-icon">🎭</div><div
+                                                                class="timeline-card"><h3>Annual
+                                                                        Function</h3><p>Dance.
+                                                                        Music.
+                                                                        Practice.
+                                                                        Nervousness.
+                                                                        Applause.</p></div></div>
+                                                <div
+                                                        class="timeline-item reveal"><div
+                                                                class="timeline-icon">📷</div><div
+                                                                class="timeline-card"><h3>Class
+                                                                        Photos</h3><p>One
+                                                                        click.
+                                                                        Thousands
+                                                                        of
+                                                                        memories.</p></div></div>
+                                                <div
+                                                        class="timeline-item reveal"><div
+                                                                class="timeline-icon">🎓</div><div
+                                                                class="timeline-card"><h3>Farewell</h3><p>The
+                                                                        hardest
+                                                                        goodbye.
+                                                                        The
+                                                                        strongest
+                                                                        memories.</p></div></div>
+                                        </div></div></section>
+                        <section class="section" id="gallery"><div
+                                        class="container"><div
+                                                class="section-title"><span
+                                                        class="eyebrow">📸
+                                                        Gallery</span><h2>Captured
+                                                        memories.</h2><p>Tap any
+                                                        picture to open the
+                                                        cinematic viewer. Use ←
+                                                        → or your keyboard to
+                                                        navigate.</p></div><div
+                                                class="gallery-grid"><button
+                                                        class="gallery-item reveal"
+                                                        data-index="0"
+                                                        aria-label="Open memory 1">
+                                                        <img
+                                                                src="assets/images/gallery1.jpg"
+                                                                alt="School memory 1"
+                                                                loading="lazy"><span
+                                                                class="gallery-overlay">View
+                                                                memory ↗</span>
+                                                </button>
+                                                <button
+                                                        class="gallery-item reveal"
+                                                        data-index="1"
+                                                        aria-label="Open memory 2">
+                                                        <img
+                                                                src="assets/images/gallery2.jpeg"
+                                                                alt="School memory 2"
+                                                                loading="lazy"><span
+                                                                class="gallery-overlay">View
+                                                                memory ↗</span>
+                                                </button>
+                                                <button
+                                                        class="gallery-item reveal"
+                                                        data-index="2"
+                                                        aria-label="Open memory 3">
+                                                        <img
+                                                                src="assets/images/gallery3.jpeg"
+                                                                alt="School memory 3"
+                                                                loading="lazy"><span
+                                                                class="gallery-overlay">View
+                                                                memory ↗</span>
+                                                </button>
+                                                <button
+                                                        class="gallery-item reveal"
+                                                        data-index="3"
+                                                        aria-label="Open memory 4">
+                                                        <img
+                                                                src="assets/images/gallery4.jpeg"
+                                                                alt="School memory 4"
+                                                                loading="lazy"><span
+                                                                class="gallery-overlay">View
+                                                                memory ↗</span>
+                                                </button>
+                                                <button
+                                                        class="gallery-item reveal"
+                                                        data-index="4"
+                                                        aria-label="Open memory 5">
+                                                        <img
+                                                                src="assets/images/gallery5.jpeg"
+                                                                alt="School memory 5"
+                                                                loading="lazy"><span
+                                                                class="gallery-overlay">View
+                                                                memory ↗</span>
+                                                </button>
+                                                <button
+                                                        class="gallery-item reveal"
+                                                        data-index="5"
+                                                        aria-label="Open memory 6">
+                                                        <img
+                                                                src="assets/images/gallery6.jpeg"
+                                                                alt="School memory 6"
+                                                                loading="lazy"><span
+                                                                class="gallery-overlay">View
+                                                                memory ↗</span>
+                                                </button>
+                                                <button
+                                                        class="gallery-item reveal"
+                                                        data-index="6"
+                                                        aria-label="Open memory 7">
+                                                        <img
+                                                                src="assets/images/gallery7.jpeg"
+                                                                alt="School memory 7"
+                                                                loading="lazy"><span
+                                                                class="gallery-overlay">View
+                                                                memory ↗</span>
+                                                </button>
+                                                <button
+                                                        class="gallery-item reveal"
+                                                        data-index="7"
+                                                        aria-label="Open memory 8">
+                                                        <img
+                                                                src="assets/images/gallery8.jpeg"
+                                                                alt="School memory 8"
+                                                                loading="lazy"><span
+                                                                class="gallery-overlay">View
+                                                                memory ↗</span>
+                                                </button>
+                                                <button
+                                                        class="gallery-item reveal"
+                                                        data-index="8"
+                                                        aria-label="Open memory 9">
+                                                        <img
+                                                                src="assets/images/gallery9.jpeg"
+                                                                alt="School memory 9"
+                                                                loading="lazy"><span
+                                                                class="gallery-overlay">View
+                                                                memory ↗</span>
+                                                </button>
+                                                <button
+                                                        class="gallery-item reveal"
+                                                        data-index="9"
+                                                        aria-label="Open memory 10">
+                                                        <img
+                                                                src="assets/images/gallery10.jpeg"
+                                                                alt="School memory 10"
+                                                                loading="lazy"><span
+                                                                class="gallery-overlay">View
+                                                                memory ↗</span>
+                                                </button>
+                                                <button
+                                                        class="gallery-item reveal"
+                                                        data-index="10"
+                                                        aria-label="Open memory 11">
+                                                        <img
+                                                                src="assets/images/gallery11.jpeg"
+                                                                alt="School memory 11"
+                                                                loading="lazy"><span
+                                                                class="gallery-overlay">View
+                                                                memory ↗</span>
+                                                </button>
+                                                <button
+                                                        class="gallery-item reveal"
+                                                        data-index="11"
+                                                        aria-label="Open memory 12">
+                                                        <img
+                                                                src="assets/images/gallery12.jpeg"
+                                                                alt="School memory 12"
+                                                                loading="lazy"><span
+                                                                class="gallery-overlay">View
+                                                                memory ↗</span>
+                                                </button>
+                                                <button
+                                                        class="gallery-item reveal"
+                                                        data-index="12"
+                                                        aria-label="Open memory 13">
+                                                        <img
+                                                                src="assets/images/gallery13.jpeg"
+                                                                alt="School memory 13"
+                                                                loading="lazy"><span
+                                                                class="gallery-overlay">View
+                                                                memory ↗</span>
+                                                </button>
+                                                <button
+                                                        class="gallery-item reveal"
+                                                        data-index="13"
+                                                        aria-label="Open memory 14">
+                                                        <img
+                                                                src="assets/images/gallery14.jpeg"
+                                                                alt="School memory 14"
+                                                                loading="lazy"><span
+                                                                class="gallery-overlay">View
+                                                                memory ↗</span>
+                                                </button>
+                                                <button
+                                                        class="gallery-item reveal"
+                                                        data-index="14"
+                                                        aria-label="Open memory 15">
+                                                        <img
+                                                                src="assets/images/gallery15.jpeg"
+                                                                alt="School memory 15"
+                                                                loading="lazy"><span
+                                                                class="gallery-overlay">View
+                                                                memory ↗</span>
+                                                </button>
+                                                <button
+                                                        class="gallery-item reveal"
+                                                        data-index="15"
+                                                        aria-label="Open memory 16">
+                                                        <img
+                                                                src="assets/images/gallery16.jpeg"
+                                                                alt="School memory 16"
+                                                                loading="lazy"><span
+                                                                class="gallery-overlay">View
+                                                                memory ↗</span>
+                                                </button>
+                                                <button
+                                                        class="gallery-item reveal"
+                                                        data-index="16"
+                                                        aria-label="Open memory 17">
+                                                        <img
+                                                                src="assets/images/gallery17.jpeg"
+                                                                alt="School memory 17"
+                                                                loading="lazy"><span
+                                                                class="gallery-overlay">View
+                                                                memory ↗</span>
+                                                </button>
+                                                <button
+                                                        class="gallery-item reveal"
+                                                        data-index="17"
+                                                        aria-label="Open memory 18">
+                                                        <img
+                                                                src="assets/images/gallery18.jpeg"
+                                                                alt="School memory 18"
+                                                                loading="lazy"><span
+                                                                class="gallery-overlay">View
+                                                                memory ↗</span>
+                                                </button>
+                                                <button
+                                                        class="gallery-item reveal"
+                                                        data-index="18"
+                                                        aria-label="Open memory 19">
+                                                        <img
+                                                                src="assets/images/gallery19.jpeg"
+                                                                alt="School memory 19"
+                                                                loading="lazy"><span
+                                                                class="gallery-overlay">View
+                                                                memory ↗</span>
+                                                </button>
+                                                <button
+                                                        class="gallery-item reveal"
+                                                        data-index="19"
+                                                        aria-label="Open memory 20">
+                                                        <img
+                                                                src="assets/images/gallery20.jpeg"
+                                                                alt="School memory 20"
+                                                                loading="lazy"><span
+                                                                class="gallery-overlay">View
+                                                                memory ↗</span>
+                                                </button>
+                                                <button
+                                                        class="gallery-item reveal"
+                                                        data-index="20"
+                                                        aria-label="Open memory 21">
+                                                        <img
+                                                                src="assets/images/gallery21.jpeg"
+                                                                alt="School memory 21"
+                                                                loading="lazy"><span
+                                                                class="gallery-overlay">View
+                                                                memory ↗</span>
+                                                </button></div></div></section>
+                        <section class="section" id="class"><div
+                                        class="container"><div
+                                                class="section-title"><span
+                                                        class="eyebrow">🏫 Class
+                                                        of H.S Public
+                                                        School</span><h2>One
+                                                        picture. A thousand
+                                                        memories.</h2></div><div
+                                                class="class-wrap reveal"><img
+                                                        src="assets/images/class.jpeg"
+                                                        alt="H.S Public School class photo"
+                                                        loading="lazy"><div
+                                                        class="class-copy"><h3>We'll
+                                                                never stand like
+                                                                this
+                                                                again.</h3><p>One
+                                                                classroom.
+                                                                One blackboard.
+                                                                One attendance
+                                                                register.
+                                                                One family.
+
+                                                                Years later,
+                                                                this photograph
+                                                                will remind us
+                                                                how beautiful
+                                                                those days
+                                                                really
+                                                                were.</p><a
+                                                                class="btn"
+                                                                href="#memory"
+                                                                style="width:max-content;margin-top:24px">Continue
+                                                                →</a></div></div></div></section>
+                        <section class="section" id="memory"><div
+                                        class="container"><div
+                                                class="section-title"><span
+                                                        class="eyebrow">❤️
+                                                        Memory
+                                                        Wall</span><h2>Pinned
+                                                        forever.</h2><p>Every
+                                                        friend leaves behind a
+                                                        memory.</p></div><div
+                                                class="memory-board">
+                                                <div class="note"
+                                                        style="--r:-1.3deg"><h3>Lucky</h3><p>"Those lunch breaks were worth more than gold."</p></div><div
+                                                        class="note"
+                                                        style="--r:1deg"><h3>Anurag</h3><p>"We solved maths together... life became harder after school."</p></div><div
+                                                        class="note"
+                                                        style="--r:-.6deg"><h3>Nishant</h3><p>"The classroom was never quiet."</p></div><div
+                                                        class="note"
+                                                        style="--r:.8deg"><h3>Jai</h3><p>"I wish we had one more school day."</p></div><div
+                                                        class="note"
+                                                        style="--r:-1deg"><h3>Kashish</h3><p>"Friendship made every day brighter."</p></div><div
+                                                        class="note"
+                                                        style="--r:1.2deg"><h3>Manshi</h3><p>"The happiest memories came from ordinary days."</p></div>
+                                        </div></div></section>
+                        <section class="section guestbook"><div
+                                        class="container"><div
+                                                class="section-title"><span
+                                                        class="eyebrow">📝 Guest
+                                                        Book</span><h2>Leave a
+                                                        memory.</h2><p>Your
+                                                        message is saved in this
+                                                        browser for the next
+                                                        visit.</p></div><form
+                                                class="memory-form"
+                                                id="memoryForm"><input
+                                                        id="guestName" required
+                                                        maxlength="40"
+                                                        placeholder="Your Name"><textarea
+                                                        id="guestMemory"
+                                                        required maxlength="300"
+                                                        placeholder="Write your memory..."></textarea><button
+                                                        class="btn"
+                                                        type="submit">Save
+                                                        Memory
+                                                        ❤️</button></form></div></section>
+                        <section class="section last-bell"><div
+                                        class="container"><div
+                                                class="bell-box reveal"><div
+                                                        class="bell-icon">🔔</div><h2>The
+                                                        Last Bell</h2><p>One
+                                                        afternoon, the school
+                                                        bell rang. We packed our
+                                                        bags. Walked through the
+                                                        school gate. Smiled.
+                                                        Said goodbye. None of us
+                                                        knew... that was the
+                                                        last ordinary day we'd
+                                                        ever spend
+                                                        together.</p></div></div></section>
+                        <section class="section farewell" id="farewell"><div
+                                        class="container"><h2>Thank You,<br>My
+                                                Friends ❤️</h2><p>Life will keep
+                                                changing. Cities will change.
+                                                Jobs will change. Dreams will
+                                                change. But the memories we made
+                                                together inside H.S Public
+                                                School will never fade.</p><a
+                                                class="btn" href="#home">Back to
+                                                Beginning ↑</a></div></section>
+                </main>
+                <footer class="footer" id="footer"><div class="container"><div
+                                        class="footer-grid"><div><h2>🏫 H.S
+                                                        Public
+                                                        School</h2><p>School
+                                                        ends. Friendship never
+                                                        does.<br>This website is
+                                                        dedicated to every
+                                                        unforgettable moment,
+                                                        every smile, every
+                                                        friendship and every
+                                                        memory we created
+                                                        together.</p></div><div><h3>Quick
+                                                        Links</h3><div
+                                                        class="footer-links"><a
+                                                                href="#about">School</a><a
+                                                                href="#friends">Friends</a><a
+                                                                href="#timeline">Journey</a><a
+                                                                href="#gallery">Gallery</a><a
+                                                                href="#memory">Memory
+                                                                Wall</a></div></div><div><h3>Connect</h3><div
+                                                        class="footer-links"><a
+                                                                href="https://github.com/jaivdn"
+                                                                target="_blank"
+                                                                rel="noopener noreferrer">GitHub
+                                                                ↗</a><a
+                                                                href="https://www.linkedin.com/in/jayvardhansingh2210"
+                                                                target="_blank"
+                                                                rel="noopener noreferrer">LinkedIn
+                                                                ↗</a><a
+                                                                href="https://jaivdn.github.io/Portfolio/"
+                                                                target="_blank"
+                                                                rel="noopener noreferrer">Portfolio
+                                                                ↗</a></div></div></div><div
+                                        class="copyright">© 2026 H.S Public
+                                        School Memories · Designed & Developed
+                                        with ❤️ by <strong>Jayvardhan
+                                                Singh</strong> ·
+                                        v2.0</div></div></footer>
+                <div class="modal" id="friendModal" role="dialog"
+                        aria-modal="true" aria-labelledby="modalName"><div
+                                class="modal-box"><button class="close"
+                                        id="closeFriend"
+                                        aria-label="Close">×</button><img
+                                        id="modalImage" src alt><div
+                                        class="modal-copy"><span class="eyebrow"
+                                                id="modalRole"></span><h2
+                                                id="modalName"></h2><p
+                                                id="modalText"></p></div></div></div>
+                <div class="modal" id="galleryModal" role="dialog"
+                        aria-modal="true" aria-label="Gallery viewer"><div
+                                class="modal-box"><button class="close"
+                                        id="closeGallery"
+                                        aria-label="Close">×</button><img
+                                        id="galleryImage" src
+                                        alt="School memory"><div
+                                        class="modal-copy"
+                                        style="display:flex;justify-content:space-between;align-items:center"><button
+                                                class="btn ghost" id="prev">←
+                                                Prev</button><span
+                                                id="galleryCount"></span><button
+                                                class="btn ghost" id="next">Next
+                                                →</button></div></div></div>
+                <div class="toast" id="toast">Memory saved ❤️</div>
+                <script>
+const $=s=>document.querySelector(s), $$=s=>document.querySelectorAll(s);
+const loader=$("#loader"), enter=$("#enterBtn"), bell=$("#bell"), music=$("#bgMusic"), musicBtn=$("#musicBtn");
+enter.addEventListener("click",async()=>{try{await bell.play()}catch(e){} loader.classList.add("hide");try{await music.play();musicBtn.textContent="🔊"}catch(e){}});
+window.addEventListener("load",()=>setTimeout(()=>loader.classList.add("hide"),1800));
+const header=$("#header"),topBtn=$("#topBtn");
+window.addEventListener("scroll",()=>{header.classList.toggle("scrolled",scrollY>30);topBtn.classList.toggle("show",scrollY>600)});
+topBtn.onclick=()=>scrollTo({top:0,behavior:"smooth"});
+const menu=$("#menu"),nav=$("#navLinks");
+menu.onclick=()=>{const open=nav.classList.toggle("open");menu.setAttribute("aria-expanded",open)};
+$$(".nav-links a").forEach(a=>a.onclick=()=>{nav.classList.remove("open");menu.setAttribute("aria-expanded","false")});
+musicBtn.onclick=async()=>{if(music.paused){try{await music.play()}catch(e){}musicBtn.textContent="🔊"}else{music.pause();musicBtn.textContent="🎵"}};
+const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add("visible")}),{threshold:.12});
+$$(".reveal").forEach(el=>observer.observe(el));
+const sections=$$("main section[id],.hero[id]"),links=$$(".nav-links a");
+const navObs=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting)links.forEach(a=>a.classList.toggle("active",a.getAttribute("href")==="#"+e.target.id))}),{rootMargin:"-35% 0px -55% 0px"});
+sections.forEach(s=>navObs.observe(s));
+
+const friendModal=$("#friendModal");
+$$(".memory-btn").forEach(btn=>btn.onclick=()=>{$("#modalImage").src=btn.dataset.image;$("#modalImage").alt=btn.dataset.name;$("#modalName").textContent=btn.dataset.name;$("#modalRole").textContent=btn.dataset.role;$("#modalText").textContent=btn.dataset.text;friendModal.classList.add("open");document.body.classList.add("lock")});
+$("#closeFriend").onclick=()=>{friendModal.classList.remove("open");document.body.classList.remove("lock")};
+
+const gallery=[...$$(".gallery-item")].map(x=>x.querySelector("img").src),galleryModal=$("#galleryModal"),gImg=$("#galleryImage"),count=$("#galleryCount");let current=0;
+function showGallery(i){current=(i+gallery.length)%gallery.length;gImg.src=gallery[current];gImg.alt="School memory "+(current+1);count.textContent=(current+1)+" / "+gallery.length;galleryModal.classList.add("open");document.body.classList.add("lock")}
+$$(".gallery-item").forEach((x,i)=>x.onclick=()=>showGallery(i));
+$("#closeGallery").onclick=()=>{galleryModal.classList.remove("open");document.body.classList.remove("lock")};
+$("#prev").onclick=()=>showGallery(current-1);$("#next").onclick=()=>showGallery(current+1);
+document.addEventListener("keydown",e=>{if(!galleryModal.classList.contains("open"))return;if(e.key==="Escape")$("#closeGallery").click();if(e.key==="ArrowLeft")showGallery(current-1);if(e.key==="ArrowRight")showGallery(current+1)});
+
+const form=$("#memoryForm"),toast=$("#toast");
+form.onsubmit=e=>{e.preventDefault();const name=$("#guestName").value.trim(),memoryText=$("#guestMemory").value.trim();const saved=JSON.parse(localStorage.getItem("hsMemories")||"[]");saved.push({name,text:memoryText,date:new Date().toLocaleDateString()});localStorage.setItem("hsMemories",JSON.stringify(saved));form.reset();toast.classList.add("show");setTimeout(()=>toast.classList.remove("show"),2600)};
+[friendModal,galleryModal].forEach(m=>m.addEventListener("click",e=>{if(e.target===m){m.classList.remove("open");document.body.classList.remove("lock")}}));
+</script>
+        </body></html>
